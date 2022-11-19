@@ -1,0 +1,304 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+}
+.home{
+    background: url('meal.jpg') no-repeat center center;
+    background-size: cover;   
+    width: 100vw;
+    height: 75vh;
+    /* backface-visibility: calc(80); */
+    /* backdrop-filter: calc(80/20); */
+}
+.navbar{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.navbar .logo{
+    margin: 3px;
+    margin-right: 27px;
+    padding: 3px 6px;
+}
+.logo img{
+    width: 90px;
+    height: 80px;
+    padding: 2px 3px;
+    border-radius: 6px 8px 10px 3px;
+}
+.navlinks{
+    margin: 12px 3px;
+    width: 50%;
+}
+.navlinks li{
+    display: inline-block;
+    list-style: none;
+    margin: 2px 3px;
+    padding: 2px 4px;
+}
+.navlinks li a{
+    color: #fff;
+    font-size: 27px;
+    font-style: italic;
+    text-decoration: none;
+    padding: 3px 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out 0.6s;
+}
+.navlinks li a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: 2px dashed yellowgreen;
+}
+/* home content  */
+.home-content{
+    margin: 80px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    color: #fff;
+    letter-spacing: 1px;
+}
+.text h1{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+.text p{
+    font-size: 18px;
+    letter-spacing: 0px;
+   padding: 3px 30px;
+   text-align: center;
+   margin-top: 3px;
+}
+.buttons{
+    margin: 22px 10px;
+}
+.buttons .btn{
+    padding: 6px 12px;
+    margin: 3px 4px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: green;
+    cursor: pointer;
+    border: 2px solid rgba(13, 117, 149, 0.429);
+}
+.buttons .btn:hover{
+    background-color: aqua;
+    color: red;
+    border-radius: 8px;
+    font-size: 23px;
+}
+.services{
+   margin: 80px 30px;
+   /* text-align: center; */
+}
+.services h3{
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+  font-weight: 600;
+}
+.service-content{
+    margin-top: 45px;
+    width: 90vw;
+}
+.container-box{
+    display: flex;
+    flex-direction: row;
+}
+.card-1{
+    border-radius: 8px 10px 14px 8px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px 5px;
+    width: 33%;
+    transition: all ease-in-out 0.3s;
+}
+.pic{
+padding: 6px 10px;
+}
+.pic img{
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+}
+.pic h4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 6px;
+}
+.txt{
+    margin: 10px 3px;
+}
+.txt p{
+    padding: 3px 6px;
+}
+.card-2{
+    border-radius: 8px 10px 14px 8px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px 5px;
+    width: 33%;
+    transition: all ease-in-out 0.3s;
+}
+.card-3{
+    border-radius: 8px 10px 14px 8px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px 5px;
+    width: 33%;
+    transition: all ease-in-out 0.3s;
+}
+.card-1:hover{
+    /* background-color: aqua; */
+    border: 2px dashed red;
+    color: #000;
+    font-size: 16px;
+    box-shadow: 2px grey;
+}
+.card-2:hover{
+    /* background-color: aqua; */
+    border: 2px dashed red;
+    color: #000;
+    font-size: 16px;
+    box-shadow: 2px grey;
+}
+.card-3:hover{
+    /* background-color: aqua; */
+    border: 2px dashed red;
+    color: #000;
+    font-size: 16px;
+    box-shadow: 2px grey;
+}
+
+.about{
+    border-radius: 20px;
+    background: rgba(7, 180, 243, 0.989) url('backk.jpg') no-repeat center;
+    background-size: cover;
+    margin: 80px 30px;
+    color: rgb(34, 242, 15);
+}
+.about h3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+.about-content{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    width: 90%;
+}
+.intro h5{
+    text-align: center;
+    font-size: 20px;
+}
+.partners{
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+.partners img{
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin: 3px 40px;
+}
+.contact{
+    background: url('contact.jpg') no-repeat center;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-size: cover;
+    margin: 80px 30px;
+}
+.contact h3{
+    margin-left: 60px;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 600;
+}
+.contact-content{
+    display: flex;
+    flex-direction: row;
+}
+.form-group{
+    padding: 1px 4px;
+    margin: 3px;
+}
+form .btn{
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid red;
+    background-color: beige;
+    border-radius: 6px;
+    transition: all ease-in-out 0.6s;
+}
+form .btn:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    border: 2px dashed yellowgreen;
+}
+input[button]{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+    .service-content{
+        width: 100vw;
+    }
+  .text h1,.services h3,.contact h3,.about h3{
+    font-size: 30px;
+  }
+  .logo img{
+    width: 60px;
+    height: 60px;
+  }
+  .navlinks li a{
+    color: #fff;
+    font-size: 15px;
+}
+.text p{
+    font-size: 10px;
+    /* letter-spacing: 0px; */
+   padding: 1px 15px;
+   text-align: center;
+   margin-top: 3px;
+}
+.buttons{
+    margin: 6px 10px;
+}
+.buttons .btn{
+    padding: 3px 8px;
+    margin: 2px 4px;
+    font-size: 10px;
+}
+}
